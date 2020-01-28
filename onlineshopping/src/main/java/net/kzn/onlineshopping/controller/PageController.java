@@ -12,16 +12,26 @@ public class PageController {
 	public ModelAndView page()
 	{
 		ModelAndView model = new ModelAndView("page");
-		model.addObject("greating", "Welcome to online project working now");
+		model.addObject("title", "Home");
+		model.addObject("userClickHome", true);
 		return model;
 	}
 	
-	@RequestMapping(value="/test")
-	public ModelAndView test(@RequestParam(value="greating",required=false) String greating)
-	
+	@RequestMapping(value="/about")
+	public ModelAndView about()
 	{
-		ModelAndView mv =  new ModelAndView("page");
-		mv.addObject("greating",greating );
+		ModelAndView mv = new ModelAndView("page");
+		mv.addObject("title", "About Us");
+		mv.addObject("userClickAbout", true);
+		return mv;
+	}
+	
+	@RequestMapping(value="/contact")
+	public ModelAndView contact()
+	{
+		ModelAndView mv = new ModelAndView("page");
+		mv.addObject("title", "Contact Us");
+		mv.addObject("userClickContact", true);
 		return mv;
 	}
 }

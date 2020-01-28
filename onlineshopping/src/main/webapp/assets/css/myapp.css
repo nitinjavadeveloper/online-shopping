@@ -6,6 +6,8 @@
 
 html {
 	height:100%;
+	weight:100%;
+	
 }
 
 body {
@@ -71,6 +73,7 @@ footer {
 
 .content {
 	padding-bottom: 60px; /*height of the footer*/	
+	height: 500px;
 }
 
 
@@ -78,7 +81,7 @@ footer {
 	width:100%;
 	position:absolute;
 	bottom:20px;
-	height: 60px;
+	
 	
 }
 
