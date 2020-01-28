@@ -20,6 +20,10 @@
 
 <!-- Add custom CSS here -->
 <link href="${css}/shop-homepage.css" rel="stylesheet">
+<!--	
+	bootstrap readable themes 
+ -->
+ <link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
 
 </head>
 <body>

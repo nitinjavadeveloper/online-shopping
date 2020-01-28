@@ -17,6 +17,10 @@
 <meta name="author" content="">
 <title>Online shopping ${title}</title>
 
+<!--	
+	bootstrap readable themes 
+ -->
+ <link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
 
 
 <!-- Bootstrap core CSS -->

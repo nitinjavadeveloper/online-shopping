@@ -10,6 +10,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+<!--	
+	bootstrap readable themes 
+ -->
+ <link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
 
 </head>
 <body>
@@ -39,7 +43,7 @@
                     <a href="${contextRoot}/contact">Contact</a>
                     </li>
                     <li id="listProducts">
-                    <a href="${contextRoot}/listProducts">View Product</a>
+                    <a href="${contextRoot}/show/all/products">View Product</a>
                     </li>
                 </ul>
             </div>

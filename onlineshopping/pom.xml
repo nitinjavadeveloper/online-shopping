@@ -16,6 +16,15 @@
 	</prerequisites>
 	<dependencies>
 
+
+		<!-- linking backed project -->
+
+		<dependency>
+			<groupId>net.kzn</groupId>
+			<artifactId>shoppingbacked</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<!-- spring dependency -->
 		<dependency>
 			<groupId>org.springframework</groupId>
