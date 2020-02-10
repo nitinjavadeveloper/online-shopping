@@ -88,7 +88,7 @@
 				<div class="col-xs-12">
 				
 					
-					<table id="productListTable" class="table table-striped table-borderd">
+					<table id="productListTable" class="table table-condensed table-hover" cellspacing="0">
 					
 					
 						<thead>
