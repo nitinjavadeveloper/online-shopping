@@ -1,14 +1,14 @@
 package net.kzn.onlineshopping.controller;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import net.kzn.shoppingbacked.dao.CategoryDAO;
-import net.kzn.shoppingbacked.dto.Category;
+import net.kzn.shoppingbackend.dao.CategoryDAO;
+import net.kzn.shoppingbackend.dto.Category;
 
 @Controller
 public class PageController {

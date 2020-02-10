@@ -20,10 +20,16 @@
 
 <script type="text/javascript">
 	window.menu = '${title}';
+	window.contextRoot = '${contextRoot}';
 </script>
 
 <!-- Bootstrap core CSS -->
 <link href="${css}/bootstrap.css" rel="stylesheet">
+
+<!-- datatable  Bootstrap core CSS -->
+<link href="${css}/dataTables.bootstrap.css" rel="stylesheet">
+
+
 <!--	
 	bootstrap readable themes 
  -->
@@ -75,6 +81,7 @@
 
 
 		</div>
+		r
 
 		<%@include file="./shared/footer.jsp"%>
 		<!-- /.container -->
@@ -82,6 +89,13 @@
 		<!-- JavaScript -->
 		<script src="${js}/jquery-1.10.2.js"></script>
 		<script src="${js}/bootstrap.js"></script>
+
+		<!--  jquery datatable plugin -->
+		<script src="${js}/jquery.dataTables.js"></script>
+
+		<!--  jquery datatable bootstrap  plugin -->
+		<script src="${js}/dataTables.bootstrap.js"></script>
+
 
 		<script src="${js}/myapp.js"></script>
 	</div>

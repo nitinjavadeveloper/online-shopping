@@ -18,12 +18,13 @@
 
 
 		<!-- linking backed project -->
-
+	
 		<dependency>
-			<groupId>net.kzn</groupId>
-			<artifactId>shoppingbacked</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+		<groupId>net.kzn</groupId>
+		<artifactId>shoppingbackend</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		
 
 		<!-- spring dependency -->
 		<dependency>

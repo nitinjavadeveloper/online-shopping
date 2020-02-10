@@ -44,7 +44,7 @@
 		<script src="${js}/jquery-1.10.2.js"></script>
 	<script src="${js}/bootstrap.js"></script>
 	
-	<script src="${js}/myap.js" ></script>
+	<script src="${js}/myapp.js" ></script>
 	
 </body>
 </html>
