@@ -1,6 +1,8 @@
 package net.kzn.onlineshopping.controller;
 
 
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,6 +17,9 @@ import net.kzn.shoppingbackend.dto.Product;
 @Controller
 public class PageController {
 
+	
+	private static final Logger logger = LoggerFactory.getLogger(PageController.class);
+	
 	@Autowired
 	private CategoryDAO categoryDAO;
 	
@@ -26,7 +31,7 @@ public class PageController {
 		ModelAndView model = new ModelAndView("page");
 		model.addObject("title", "Home");
 		model.addObject("categories", categoryDAO.list());
-
+		
 		model.addObject("userClickHome", true);
 		return model;
 	}
@@ -55,7 +60,7 @@ public class PageController {
 		ModelAndView model = new ModelAndView("page");
 		model.addObject("title", "All Products");
 		model.addObject("categories", categoryDAO.list());
-
+		
 		model.addObject("userClickAllProducts", true);
 		return model;
 	}
